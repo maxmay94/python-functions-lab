@@ -13,3 +13,6 @@ def largest(list):
   return big
 print(largest([10, 4, 2, 231, 91, 54]))
 
+def occurrences(str1, str2):
+  return str1.count(str2)
+print(occurrences('fleep floop', 'e'))
